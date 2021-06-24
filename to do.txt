@@ -1,0 +1,44 @@
+To do:
+
+1. Cut unnecessary code from repository
+2. 
+
+
+
+
+
+
+
+
+
+Notes:
+
+-Heroku falls asleep after 30 mins of inactivity
+-free tier heroku has 2 types, unverified and verified
+    -verified means you have card details verified (gets you 1000 hours of activity per month)
+    -unverified 550 hours of dyno per month
+
+Uptime Robot potential fix to app falling asleep
+
+
+
+-Free heroku falls asleep
+    potential fixes:
+        - paid heroku 
+        - aws (paid)
+        - host at ku 
+        - host on a local machine (probably not viable)
+        - bot to 'tickle' heroku site to prevent it from falling asleep
+
+- Slow load times for site modules
+    potential fixes:
+        - move import statements around to lessen first load times
+        -
+
+
+-data not writing to aws bucket
+    potential fixes:
+        - switch to sql database (not ideal)
+        - change data upload code
+        -heroku postgresql (free option, probably viable)
+        -aws database (sql or postgresql)
